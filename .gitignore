@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/grapheneserver.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+app.py
+Dockerfile
+env.yml
+README.md
+requirements.txt
+template.yml

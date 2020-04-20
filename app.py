@@ -49,4 +49,4 @@ api.add_resource(OperationsUninstall, '/uninstall/<string:app_id>')
 api.add_resource(OperationsAppStatus, '/appstatus/<string:app_id>')
 api.add_resource(OperationsContainer, '/container/<string:app_id>/<path:filename>')
 
-app.run(port=5000)
+app.run(host='0.0.0.0', port=5000)
